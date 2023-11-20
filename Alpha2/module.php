@@ -22,6 +22,8 @@ class MoehlenhoffAlpha2 extends IPSModule
         'T_HEAT_VACATION'         => ['Name' => 'Basis Urlaub Temperatur Heizen', 'Type' => 2, 'Profile' => 'MH.HeatAreaTHeatCool', 'Action' => true, 'Position' => 50],
         'VACATION/VACATION_STATE' => ['Name' => 'Basis Urlaub Status', 'Type' => 1, 'Profile' => 'MH.VacationState', 'Action' => true, 'Position' => 50],
         'ECO_INPUT_STATE'         => ['Name' => 'Basis Absenkeingang', 'Type' => 0, 'Profile' => '~Switch', 'Action' => false, 'Position' => 50],
+        'PUMP_ISACTIVE'           => ['Name' => 'Pumpe Aktiv', 'Type' => 0, 'Profile' => '~Switch', 'Action' => true, 'Position' => 50],
+        'RELAIS_ISACTIVE'         => ['Name' => 'Relais Aktiv', 'Type' => 0, 'Profile' => '~Switch', 'Action' => true, 'Position' => 50],
         //"PUMP_OUTPUT/PUMP_LEADTIME" => Array("Name" => "Pumpen Vorlaufzeit (Minuten)", "Type" => 1, "Profile" => "MH.PumpTime", "Action" => true, "Position" => 50),
         //"PUMP_OUTPUT/PUMP_STOPPINGTIME" => Array("Name" => "Pumpen Nachlaufzeit (Minuten)", "Type" => 1, "Profile" => "MH.PumpTime", "Action" => true, "Position" => 50),
         //"RELAIS/RELAIS_LEADTIME" => Array("Name" => "Relais Vorlaufzeit (Minuten)", "Type" => 1, "Profile" => "MH.RelaisTime", "Action" => true, "Position" => 50),
